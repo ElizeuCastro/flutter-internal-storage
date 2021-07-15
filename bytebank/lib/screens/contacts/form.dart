@@ -47,7 +47,7 @@ class _ContactFormState extends State<ContactForm> {
                     final int? accountNumber =
                         int.tryParse(accountNumberController.text);
                     if (fullName != null && accountNumber != null) {
-                      Navigator.pop(context, Contact(fullName, accountNumber));
+                      Navigator.pop(context, Contact(0, fullName, accountNumber));
                     }
                   },
                   child: Text('Create'),

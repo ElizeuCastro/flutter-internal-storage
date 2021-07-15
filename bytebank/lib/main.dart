@@ -20,5 +20,3 @@ class BytebankApp extends StatelessWidget {
         home: Dashboard());
   }
 }
-
-
